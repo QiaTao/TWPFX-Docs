@@ -23,10 +23,10 @@ jobs:
         npm install
 
     - name: Generate
-      run: hexo generate
+      run: npm run build
 
     - name: Deploy to Server
-      uses: appleboy/scp-action@master
+      uses: appleboy/scp-action@main
       with:
         host: 120.55.98.102
         username: root
