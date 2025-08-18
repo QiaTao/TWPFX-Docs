@@ -30,7 +30,7 @@ jobs:
       with:
         host: 120.55.98.102
         username: root
-        password: Qiatao66
+        password: ${{ secrets.SERVER_PASSWORD }}
         port: 22
         source: ".vuepress/dist"
         target: "/var/www/html/twpfx"
