@@ -15,7 +15,7 @@ export default defineUserConfig({
     colorModeSwitch: true, // 是否开启颜色模式切换
     // password: "14e1b600b1fd579f47433b88e8d85291",
     repo: "QiaTao/TWPFX",
-    logo: "/logo.png",
+    logo: "/logo.svg",
     author: "ATao",
     authorAvatar: "/head.png",
     docsDir: ".",
